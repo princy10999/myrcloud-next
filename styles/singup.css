@@ -1,0 +1,307 @@
+/* 14/9/2022 parth css */
+
+.downloadButton{
+  text-decoration: none;
+  color: #1ba39c;
+  display: flex;
+}
+.signup .logo_img {
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.signup .MuiTypography-h6 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.0005px;
+}
+
+.signup .MuiTypography-caption {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #777777;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.signup .checkbox_signup {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.signup .checkbox_signup .MuiFormControlLabel-root {
+  /* background-color: white; */
+  border-radius: 5px;
+  padding: 5px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+.signup .checkbox_signup .MuiTypography-root {
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #222222;
+  padding-left: -8px;
+}
+
+.signup .checkbox_signup label {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #222222;
+}
+
+.signup .checkbox_signup .mui-6qe8h2 {
+  background-color: #1ba39c !important;
+}
+
+.signup .checkbox_signup .mui-6qe8h2:before {
+  background-image: url("../public/assets/img/Vector.svg") !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 13px;
+  width: 13px;
+  display: block;
+  margin-top: 3.8px;
+  margin-left: 3.8px;
+}
+
+/* .css-7x4lc2,
+.css-r8uj3u {
+  width: 20px;
+  height: 20px;
+} */
+
+/* .css-7elqso {
+  text-align: start;
+} */
+
+/* .signup .css-7elqso .MuiInputBase-root {
+  width: 100%;
+} */
+
+/* .signup .css-7elqso .MuiFormLabel-root {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  display: flex;
+  align-items: center;
+  color: #777777;
+  font-stretch: 100;
+  margin: 25px 0 10px 0;
+} */
+
+.MuiInputBase-input {
+  padding: 8px;
+  background-color: white;
+  border-radius: 5px;
+}
+.searchInput .MuiInputBase-input{
+  padding: 0px 0px 0 5px !important; 
+}
+
+/* .signup .css-7elqso fieldset {
+  border-color: #dddddd;
+}
+
+.signup .css-7elqso .already {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #444444;
+  margin-top: 25px;
+}
+
+.signup .css-7elqso .already a {
+  font-weight: 600;
+  color: #1ba39c;
+  text-decoration: none;
+} */
+.search_filed fieldset {
+  border-radius: 0 5px 5px 0 !important;
+  border-left: none;
+  /* border-right:  none; */
+}
+.search_filed .phoneInput fieldset {
+  border-radius: 5px 0px 0px 5px !important;
+  /* border-right: none; */
+  border-left: 1px solid #dddddd !important;
+}
+.search_filed .search1 fieldset {
+  border-radius: 5px 0 0 5px !important;
+  border-left: 1px solid #dddddd !important;
+  /* border-right:  none; */
+}
+.search_filed .search fieldset {
+  border-radius: 0 !important;
+  border-left: none;
+  border-right: none;
+}
+fieldset {
+  border-color: #dddddd !important;
+}
+.search_filed img {
+  border: 1px solid #dddddd;
+  border-radius: 5px 0px 0px 5px;
+  padding: 0px 10px;
+}
+.search_filed .search_img {
+  border: 1px solid #dddddd;
+  border-radius: 0 5px 5px 0 !important;
+  padding: 0px 10px;
+}
+.MuiSlider-rail {
+  color: #dddddd;
+  padding: 3px;
+}
+.MuiSlider-track {
+  padding: 3px;
+}
+
+.profile_page{
+  padding-left: 10px !important;
+}
+.main_profile {
+  padding-left:8px !important;
+}
+@media (max-width: 1200px) {
+  .search_filed img {
+    padding: 0px 10px;
+  }
+ } 
+ @media (max-width: 900px) {
+
+  .css-18etnxp-MuiPaper-root-MuiCard-root {
+    width: 100%;
+  }
+  .profile_page{
+    padding-left: 30px !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .signup .checkbox_signup {
+    flex-direction: column !important;
+  }
+
+  .signup .checkbox_signup .MuiFormControlLabel-root {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0 !important;
+  }
+}
+
+/*==================== terms_and_condition======================= */
+
+.terms_and_condition .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #efefef;
+  padding: 20px 50px;
+  height: 75px;
+}
+/* .terms_and_condition .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  box-shadow: none !important;
+} */
+/* .css-1elwnq4-MuiPaper-root-MuiAccordion-root:before {
+  opacity: 0 !important;
+} */
+.terms_and_condition .description {
+  padding: 20px 50px;
+}
+
+.terms_and_condition .description h4 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #444444;
+}
+
+.terms_and_condition .description span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.0005px;
+  color: #444444;
+}
+
+.terms_and_condition .description p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.0005px;
+  color: #444444;
+}
+
+.terms_and_condition .description .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.terms_and_condition .description .buttons .cancle {
+  width: 120px;
+  padding: 10px 20px;
+  background-color: white;
+  color: #777777;
+  border: 1px solid #dddddd;
+  border-radius: 24px;
+}
+
+.terms_and_condition .description .buttons .accept {
+  width: 120px;
+  border-radius: 24px;
+}
+
+/* ===============================verification===================== */
+
+.verify .logo_img_verify {
+  height: 70px;
+  width: auto;
+  margin-top: 10px;
+}
+
+.verify .content {
+  width: auto;
+  text-align: center;
+  margin: auto;
+}
+
+.verify .content p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 40px;
+  letter-spacing: -0.0005px;
+  color: #777777;
+}
+
+.content span {
+  color: #1ba39c;
+  margin: 0px 5px;
+}
+
+.content button {
+  margin-top: 20px;
+  max-width: 400px;
+  padding: 10px 0;
+  font-weight: 600;
+}
+.swiper-pagination-bullet-active {
+  background-color: #1ba39c !important;
+}

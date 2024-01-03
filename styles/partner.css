@@ -1,0 +1,44 @@
+.timeLineError {
+  background-color: #d32f2f;
+}
+
+.timeLineWarning {
+  background-color: #1ba39c;
+}
+
+.contantWarning1 {
+  background-color: rgba(27, 163, 156, 0.25);
+  width: 10%;
+}
+.contantWarning2 {
+  background-color: rgba(27, 163, 156, 0.25);
+  width: 20%;
+}
+.contantWarning3 {
+  background-color: rgba(27, 163, 156, 0.25);
+  width: 30%;
+}
+.contantWarning4 {
+  background-color: rgba(27, 163, 156, 0.25);
+  width: 60%;
+}
+.contantWarning5 {
+  background-color: rgba(27, 163, 156, 0.25);
+  width: 50%;
+}
+
+.commonContant {
+  height: 27px;
+  position: absolute;
+  left: 26%;
+  top: 8%;
+}
+
+.MuiGrid-spacing-xs-4 {
+  margin: 0px !important;
+  width: 100% !important;
+}
+
+.MuiGrid-spacing-xs-4 > .MuiGrid-item {
+  padding: 0px !important;
+}

@@ -1,0 +1,225 @@
+:root {
+  --primary: #1ba39c;
+  --secondary: #6c757d;
+  --success: #2bd992;
+  --info: #3563db;
+  --warning: #ffbe5e;
+  --danger: #e91f4f;
+}
+
+::-webkit-scrollbar {
+  width: 0.3em;
+  height: 0.2em;
+  display: block;
+}
+
+.BigScrollBar *::-webkit-scrollbar {
+  height: 0.6em;
+  width: 0.6em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a9a9a9;
+  /* outline: 2px solid #708090; */
+}
+
+body {
+  background-color: var(--body-bg-color, #efefef);
+  max-width: 1440px;
+  margin: 0px auto !important;
+}
+.sidedrawer {
+  background-color: #1ba39c00;
+  top: 206px;
+  position: absolute;
+  left: 11px;
+  box-shadow: none;
+}
+.sidemenu .MuiDrawer-paper {
+  position: relative !important;
+}
+.sidemenu {
+  background-color: #1ba39c00;
+}
+.sidedrawer .MuiToolbar-regular {
+  min-height: 0px;
+}
+/* .mainclass .css-1k455el {
+  min-height: 0px;
+} */
+.sidedrawer .MuiIconButton-root:hover {
+  background-color: rgb(0 0 0 / 0%);
+}
+.sidedrawer .MuiIconButton-root {
+  color: #000;
+}
+.filter-text {
+  font-size: 13px;
+}
+.margindropdown {
+  margin-left: 15px;
+}
+.margindropdown .Mui-expanded {
+  box-shadow: none;
+}
+.margindropdown .MuiAccordion-rounded {
+  box-shadow: none;
+}
+.Tab-bg {
+  background-color: #fff;
+  border-radius: 5px;
+}
+.Tab-bg-btn {
+  margin-left: auto !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+.Tab-bg-btn button {
+  color: #000;
+}
+.Tab-bg-btn button svg {
+  color: #1ba39c;
+}
+.req-table .req-bar {
+  width: 45px;
+}
+.req-table .req-bar .MuiLinearProgress-colorPrimary {
+  height: 6px;
+  margin-top: 8px;
+}
+.req-table .position {
+  width: 90px;
+}
+
+.pri-comp span {
+  font-size: 11px;
+}
+
+.req-table .pri-comp .priority {
+  background-color: #ff5555;
+  color: #fff;
+  padding: 1px 6px;
+  border-radius: 8px;
+}
+
+.req-table .pri-comp .req-id {
+  color: #777777;
+}
+
+.req-table .pri-comp .date {
+  color: #777777;
+}
+
+.req-table .job {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin-top: 10px;
+}
+
+.req-table .company {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+
+.req-table .city {
+  font-size: 15px;
+  color: #777777;
+}
+.req-table .req-id-color {
+  color: #1ba39c;
+}
+.req-table .cv-position {
+  font-size: 12px;
+}
+.req-table .req-bar .MuiLinearProgress-bar {
+  border-radius: 5px;
+  background-color: #1ba39c;
+}
+.req-table .skill-tech span {
+  font-size: 12px;
+  cursor: pointer;
+  border: 1px solid #1ba39c;
+  color: #1ba39c;
+  padding: 1px 6px;
+  padding: 1px 6px;
+  border-radius: 10px;
+  margin-bottom: 6px;
+  margin-left: 2px;
+}
+.req-table .skill {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 10px;
+}
+.req-table .timeline span {
+  font-size: 12px;
+}
+.req-table .timeline .icon-time {
+  margin-top: -5px;
+}
+.req-table .tentetive {
+  width: 105px;
+}
+.req-table .percent {
+  font-weight: 600;
+}
+.req-table svg {
+  width: 20px;
+}
+.req-table .view {
+  justify-content: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .req-table tr {
+    display: grid;
+  }
+}
+.MuiAutocomplete-inputRoot {
+  height: 41px !important;
+}
+
+.MuiStepLabel-iconContainer {
+  padding-left: 8px;
+  padding-right: 0px;
+}
+.requisition_pipeline .MuiStepLabel-iconContainer {
+  padding-left: 0px;
+  padding-right: 8px;
+}
+.requisition_pipeline .MuiStepConnector-root {
+  margin-left: 18px;
+}
+.create_requisition .MuiStepConnector-root {
+  margin-right: 18px;
+}
+
+.create_requisition .MuiStepConnector-line {
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-left-style: none;
+}
+
+.anchor-link a {
+  text-decoration: none;
+  color: #1ba39c;
+  font-weight: 450;
+  padding: 10px;
+}
+
+.introjs-bullets ul li a.active {
+  background: var(--primary);
+}
+.introjs-hint-pulse {
+  background-color: var(--primary);
+}
+
+.report-style-class iframe {
+  border: none;
+  height: calc((100vw - 320px) * 0.59) !important;
+}
